@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84d6484e_6094eebf",
+        "filename": "dayOfYear.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1013883
+      },
+      "writtenOn": "2018-04-04T17:02:05Z",
+      "side": 1,
+      "message": "This should be at the top of this file",
+      "range": {
+        "startLine": 2,
+        "startChar": 21,
+        "endLine": 2,
+        "endChar": 38
+      },
+      "revId": "df9ef5ddb0ff22c18e348083a420d792a575dab9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ac4b5e25_2c272be9",
+        "filename": "dayOfYear.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1013883
+      },
+      "writtenOn": "2018-04-04T17:02:05Z",
+      "side": 1,
+      "message": "should use method arguments instead of being hardcoded",
+      "range": {
+        "startLine": 4,
+        "startChar": 42,
+        "endLine": 4,
+        "endChar": 44
+      },
+      "revId": "df9ef5ddb0ff22c18e348083a420d792a575dab9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
