@@ -23,4 +23,11 @@ public static int dayOfYear(int month, int dayOfMonth, int year) {
         dayOfMonth += 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 31;
     }
     return dayOfMonth;
+    
+    import java.util.GregorianCalendar;
+    GregorianCalendar gc = new GregorianCalendar();
+    gc.set(GregorianCalendar.DAY_OF_MONTH, 8);
+    gc.set(GregorianCalendar.MONTH, GregorianCalendar.JUNE);
+    gc.set(GregorianCalendar.YEAR, 2010);
+    dayOfMonth = gc.get(GregorianCalendar.DAY_OF_YEAR);
 }
